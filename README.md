@@ -1,7 +1,7 @@
 # bgeval
 Assignment evaluation repository
 
-This file contains all the information to build and run the code, scripts, and procedures for the boeing hiring evaluation assignment.
+This file contains all the information to build and run the code, scripts, and procedures for the _company_ hiring evaluation assignment.
 
 # Assignment
 
@@ -18,7 +18,7 @@ Your responsibility on the team is to:
 * Service can be scaled, preferably automatically, to handle increased loads
 
 Rules
-*Timebox this assignment to 4 hours. Focus on the most important aspects based on the current state of the microservice and upcoming team priorities.
+* Timebox this assignment to 4 hours. Focus on the most important aspects based on the current state of the microservice and upcoming team priorities.
 * You can implement a simple Greetings microservice using technology stack of your choice
 * You are free to use the programming language and tools of your choice
 * The following virtualization options are acceptable (in case you choose to focus on this aspect of the assignment): AWS, Azure, VirtualBox, Docker.
