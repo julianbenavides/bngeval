@@ -1,5 +1,5 @@
 # bgeval
-b**** assignment evaluation repository
+Assignment evaluation repository
 
 This file contains all the information to build and run the code, scripts, and procedures for the boeing hiring evaluation assignment.
 
