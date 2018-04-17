@@ -1,9 +1,8 @@
-# boeingeval
-boeing evaluation repository
+# bgeval
+b**** assignment evaluation repository
 
 This file contains all the information to build and run the code, scripts, and procedures for the boeing hiring evaluation assignment.
 
-# imported from Boeing\ Assignment.pdf
 # Assignment
 You are a member of a cross-functional development team that owns the Greetings microservice. Greetings microservice has the following functionality at the moment: any GET request returns "Hello World!" The team hasn't implemented any automated tests or created a mechanism for automated deployments of this service to any of the existing environments (dev, test, demo, production) yet.
 
