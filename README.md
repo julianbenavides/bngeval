@@ -1,4 +1,4 @@
-# bgeval
+# bngeval
 Assignment evaluation repository
 
 This file contains all the information to build and run the code, scripts, and procedures for the _company_ hiring evaluation assignment.
