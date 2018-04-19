@@ -13,19 +13,22 @@ IFS=- read -a verArray <<< "$(head -n 1 ../environment/currentversion.log)"
 
 if [ $1 = "production" ]; then 
     #echo I am here prod
-    $((${verArray[0]}++))
+    $((verArray[0]++))
 elif [ $1 = "test" ]; then
     #echo I am here test
     $((verArray[1]++))
     elif [ $1 = "development" ]; then
      #echo I am here dev
-      $((${verArray[2]}++))
+      $((verArray[2]++))
 fi;
-
-echo DEBUG
+#Now build the version string again and update the version files
+#echo DEBUG
 echo
 echo The deployment was performed on $1
 echo
 echo Release: ${verArray[0]} 
 echo Update: ${verArray[1]} 
 echo Patch: ${verArray[2]} 
+echo
+echo Trying to rewrite the version files...
+sed -i "1s/.*/${verArray[0]}-${verArray[1]}-${verArray[2]}" ../environment/currentversion.log
