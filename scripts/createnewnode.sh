@@ -14,11 +14,11 @@ curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/demo/ver/  -u b
 echo [done]
 echo Creating development environment folders
 curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/developer/  -u boeingnewnode@jbits.ca:boeing
-curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/demo/developer/  -u boeingnewnode@jbits.ca:boeing
+curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/developer/ver/  -u boeingnewnode@jbits.ca:boeing
 echo [done]
 echo Creating production environment folders
 curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/production/  -u boeingnewnode@jbits.ca:boeing
-curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/demo/production/  -u boeingnewnode@jbits.ca:boeing
+curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/production/ver/  -u boeingnewnode@jbits.ca:boeing
 echo [done]
 echo Creating test environment folders
 curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/test/  -u boeingnewnode@jbits.ca:boeing
@@ -47,7 +47,7 @@ echo Creating Version Admin Page
 curl --ftp-ssl-reqd -k -T "../environment/env/adminversions.php" ftp.jbits.ca/boeing$1/index.php -u boeingnewnode@jbits.ca:boeing
 echo Ommiting master block
 echo ...
-echo New Node: boeing$1 has been successfully created.
+echo New Node: boeing$1 has been successfully created. Access it at http://jbits.ca/work/boeing$1
 echo Exiting script
 echo
 #echo
