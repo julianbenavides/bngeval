@@ -31,4 +31,5 @@ echo Update: ${verArray[1]}
 echo Patch: ${verArray[2]} 
 echo
 echo Trying to rewrite the version files...
+echo ${verArray[0]}-${verArray[1]}-${verArray[2]}
 sed -i "1s/.*/'${verArray[0]}-${verArray[1]}-${verArray[2]}'" ../environment/currentversion.log
