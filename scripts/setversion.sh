@@ -11,10 +11,13 @@ IFS=- read -a verArray <<< "$(head -n 1 ../environment/currentversion.log)"
 # the release numeral will increase by one, if it was on test the update numeral will, if in development the patch numeral will.
 # the script will receive the parameter environment in variable 1
 if [ $1 = "Production" ]; then 
+    echo I am here prod
     ((${verArray[0]}++))
 elif [ $1 = "Test" ]; then
+    echo I am here test
     ((${verArray[1]}++))
     elif [ $1 = "Development" ]; then
+      echo I am here dev
       ((${verArray[2]}++))
 fi;
 
