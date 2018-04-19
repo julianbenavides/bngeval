@@ -7,4 +7,4 @@ echo Current version: $(head -n 1 ../environment/currentversion.log)
 #Then I will explode the string to change the version depending if the deployment is in production -> release, test -> update, or development -> patch
 IFS=- read -a verArray <<< "$(head -n 1 ../environment/currentversion.log)"
 echo DEBUG
-echo ${myarray[2]} 
+echo ${verArray[2]} 
