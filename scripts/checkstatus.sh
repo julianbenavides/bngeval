@@ -7,4 +7,4 @@ echo Response: $(curl --write-out %{http_code} --silent --output /dev/null https
 echo
 echo Starting automatic POST test to ensure that the microservice is working...
 #echo curl --data "name=BoeingCandidate" https://jbits.ca/work/boeing/$1/
-curl -d "name=BoeingCandidate" -X POST https://jbits.ca/work/boeing/$1/
+curl -w -d "name=BoeingCandidate" -X POST https://jbits.ca/work/boeing/$1/
