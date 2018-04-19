@@ -13,8 +13,8 @@ curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/demo/  -u boein
 curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/demo/ver/  -u boeingnewnode@jbits.ca:boeing
 echo [done]
 echo Creating development environment folders
-curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/developer/  -u boeingnewnode@jbits.ca:boeing
-curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/developer/ver/  -u boeingnewnode@jbits.ca:boeing
+curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/development/  -u boeingnewnode@jbits.ca:boeing
+curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/development/ver/  -u boeingnewnode@jbits.ca:boeing
 echo [done]
 echo Creating production environment folders
 curl --ftp-ssl-reqd -k  --ftp-create-dirs  ftp.jbits.ca/boeing$1/production/  -u boeingnewnode@jbits.ca:boeing
