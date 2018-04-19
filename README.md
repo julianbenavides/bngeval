@@ -53,7 +53,7 @@ setversion.sh
 2. Other Files:
 * Each environment has 2 main components: a container (index.php) and the microservice (main-x-x-x.php) which is the block of code that is modified and deployed by the user. The container can be deployed while building a new node and embeds the main block by calling the include function. The versioning of the main block is managed by the setversion script and the version record is kept in the "currentversion.log" file located in the environment folder of the repository.
 * The adminversions.php file located in the /environment/env/ path is used to display all the versions deployed in each environment for the user to select deploying a certain version at a certain environment. That file is renamed to "index.php" when deployed and can be accessed at the root folder of each node.
-* to access that page go to: http://jbits.ca/work/boeing/?target=_blank
+* to access that page go to: [http://jbits.ca/work/boeing/](http://jbits.ca/work/boeing/?target=_blank)
 
 Now, based on the requirements of the assignment, I will go one by one defining how to fulfill each requirement:
 
