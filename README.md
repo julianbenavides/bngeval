@@ -61,15 +61,15 @@ Now, based on the requirements of the assignment, I will go one by one defining 
 
 Your responsibility on the team is to:
 * Ensure that changes to the source code can be automatically tested before they are deployed
---> This can be done using the checkstatus script pointing to demo as it wont affect the versinioning and will verify that the code is functional before deploying to development, test, or production.
+> This can be done using the checkstatus script pointing to demo as it wont affect the versinioning and will verify that the code is functional before deploying to development, test, or production.
 * Specific version of the service can be launched for testing, debugging and demos
---> This can be done by going to the admin console (e.g. http://jbits.ca/work/boeing/) and selecting the desired environment and version of the micro-service. The list of availables versions will automatically change if new deployments are made.
+> This can be done by going to the admin console (e.g. http://jbits.ca/work/boeing/) and selecting the desired environment and version of the micro-service. The list of availables versions will automatically change if new deployments are made.
 * Infrastructure and required services provisioning as well as deployment is automated and can be triggered with a click of a button or a command in a terminal
---> This can be achieved with the autodeploydev script providing the paramenter with the name of the environment you want to deploy to (e.g. development)
+> This can be achieved with the autodeploydev script providing the paramenter with the name of the environment you want to deploy to (e.g. development)
 * Service is reasonably resilient and a single node failure does not affect end users
---> The solution was designed for each environment to be independent and node failures wont affect other nodes.
+> The solution was designed for each environment to be independent and node failures wont affect other nodes.
 * Service can be scaled, preferably automatically, to handle increased loads
---> Tnis can be achieved with the createnewnode script
+> Tnis can be achieved with the createnewnode script
 
 
 Limitations:
