@@ -11,12 +11,4 @@ echo using POST name [$2]
 RESULT=$(curl -d "name=$2" -X POST https://jbits.ca/work/boeing/$1/)
 echo "$RESULT"
 #Automatically find the POST name
-flag=`echo $RESULT|awk '{print match($0,"$2")}'`;
-
-if [ $flag -gt 0 ];then
-
-    echo "Success";
-else
-    echo "fail";
-
-fi
+echo "$RESULT" | grep "$2" && echo "$2 POST name was found in the curl response." || echo "$2 POST name was NOT found in the curl response."
