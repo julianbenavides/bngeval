@@ -10,5 +10,10 @@ echo using POST name [$2]
 #echo curl --data "name=BoeingCandidate" https://jbits.ca/work/boeing/$1/
 RESULT=$(curl -d "name=$2" -X POST https://jbits.ca/work/boeing/$1/)
 echo "$RESULT"
+echo
+echo -------
+echo
 #Automatically find the POST name
-echo "$RESULT" | grep "$2" && echo "$2 POST name was found in the curl response." || echo "$2 POST name was NOT found in the curl response."
+echo Analyzing curl response to try to find the POST name provided...
+echo
+echo "$RESULT" | grep "$2" && echo "POST name: $2 was found in the curl response. Test PASSED" || echo "POST name: $2 was NOT found in the curl response. Test FAILED"
