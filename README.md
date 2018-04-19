@@ -69,7 +69,7 @@ Your responsibility on the team is to:
 * Service is reasonably resilient and a single node failure does not affect end users
 > The solution was designed for each environment to be independent and node failures wont affect other nodes.
 * Service can be scaled, preferably automatically, to handle increased loads
-> Tnis can be achieved with the createnewnode script
+> This can be achieved with the createnewnode script
 
 
 Limitations:
