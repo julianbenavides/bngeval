@@ -55,10 +55,10 @@ setversion.sh
 * The adminversions.php file located in the /environment/env/ path is used to display all the versions deployed in each environment for the user to select deploying a certain version at a certain environment. That file is renamed to "index.php" when deployed and can be accessed at the root folder of each node.
 * To access that page go to: https://jbits.ca/work/boeing/
 * To visit any environment running the latest microservice version go to: https://jbits.ca/work/boeing/{environment}/, where {environment} can be (development, demo, test, or production)
-> https://jbits.ca/work/boeing/development
-> https://jbits.ca/work/boeing/demo
-> https://jbits.ca/work/boeing/test
-> https://jbits.ca/work/boeing/production
+- [x]  https://jbits.ca/work/boeing/development
+- [x]  https://jbits.ca/work/boeing/demo
+- [x]  https://jbits.ca/work/boeing/test
+- [x]  https://jbits.ca/work/boeing/production
 
 Now, based on the requirements of the assignment, I will go one by one defining how to fulfill each requirement:
 
