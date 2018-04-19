@@ -9,4 +9,7 @@ curl --ftp-ssl-reqd -k -T "../environment/env/main.php" ftp.jbits.ca/$1/ver/main
 echo ...
 echo File main-$(head -n 1 ../environment/currentversion.log).php has been uploaded to the $1 environment
 echo
+echo calling script to update the version of the main block
+#insert shell script here
+echo
 echo End of transaction. Closing connection
