@@ -16,7 +16,7 @@ if [ $1 = "production" ]; then
     $((${verArray[0]}++))
 elif [ $1 = "test" ]; then
     #echo I am here test
-    $((${verArray[1]}++))
+    $((verArray[1]++))
     elif [ $1 = "development" ]; then
      #echo I am here dev
       $((${verArray[2]}++))
