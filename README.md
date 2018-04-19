@@ -53,7 +53,7 @@ setversion.sh
 2. Other Files:
 * Each environment has 2 main components: a container (index.php) and the microservice (main-x-x-x.php) which is the block of code that is modified and deployed by the user. The container can be deployed while building a new node and embeds the main block by calling the include function. The versioning of the main block is managed by the setversion script and the version record is kept in the "currentversion.log" file located in the environment folder of the repository.
 * The adminversions.php file located in the /environment/env/ path is used to display all the versions deployed in each environment for the user to select deploying a certain version at a certain environment. That file is renamed to "index.php" when deployed and can be accessed at the root folder of each node.
-* to access that page go to: [http://jbits.ca/work/boeing/](http://jbits.ca/work/boeing/?target=_blank)
+* to access that page go to: https://jbits.ca/work/boeing/
 
 Now, based on the requirements of the assignment, I will go one by one defining how to fulfill each requirement:
 
@@ -63,7 +63,7 @@ Your responsibility on the team is to:
 * Ensure that changes to the source code can be automatically tested before they are deployed
 > This can be done using the checkstatus script pointing to demo as it wont affect the versinioning and will verify that the code is functional before deploying to development, test, or production.
 * Specific version of the service can be launched for testing, debugging and demos
-> This can be done by going to the admin console (e.g. http://jbits.ca/work/boeing/) and selecting the desired environment and version of the micro-service. The list of availables versions will automatically change if new deployments are made.
+> This can be done by going to the admin console (e.g. https://jbits.ca/work/boeing/) and selecting the desired environment and version of the micro-service. The list of availables versions will automatically change if new deployments are made.
 * Infrastructure and required services provisioning as well as deployment is automated and can be triggered with a click of a button or a command in a terminal
 > This can be achieved with the autodeploydev script providing the paramenter with the name of the environment you want to deploy to (e.g. development)
 * Service is reasonably resilient and a single node failure does not affect end users
