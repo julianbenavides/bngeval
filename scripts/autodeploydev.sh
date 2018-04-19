@@ -3,9 +3,9 @@
 #1. git pull
 git pull
 #2. call setversion script
-sh setversion.sh development
+sh setversion.sh $1
 #3. push to the server development environment instance
-sh ftpsec.sh development
+sh ftpsec.sh $1
 #4. Test http headers
-sh checkstatus.sh development BoeingCandidate
+sh checkstatus.sh $1 BoeingCandidate
 #5. Provide feedback to the user and finish
