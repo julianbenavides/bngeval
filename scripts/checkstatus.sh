@@ -9,3 +9,4 @@ echo Starting automatic POST test to ensure that the microservice is working...
 echo using POST name [BoeingCandidate]
 #echo curl --data "name=BoeingCandidate" https://jbits.ca/work/boeing/$1/
 RESULT=$(curl -d "name=BoeingCandidate" -X POST https://jbits.ca/work/boeing/$1/)
+echo "$RESULT"
