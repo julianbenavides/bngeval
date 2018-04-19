@@ -7,5 +7,5 @@ sh setversion.sh development
 #3. push to the server development environment instance
 sh ftpsec.sh development
 #4. Test http headers
-sh checkstatus.sh development
+sh checkstatus.sh development BoeingCandidate
 #5. Provide feedback to the user and finish
