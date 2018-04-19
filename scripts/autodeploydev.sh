@@ -4,8 +4,10 @@
 git pull
 #2. call setversion script
 sh setversion.sh $1
-#3. push to the server development environment instance
+#3. push to the server environment instance selected by the user
 sh ftpsec.sh $1
-#4. Test http headers
+#4. Test http headers and curl response to an automatic POST
 sh checkstatus.sh $1 BoeingCandidate
 #5. Provide feedback to the user and finish
+
+echo The auto-deployment of the microservice on $1 was completed
