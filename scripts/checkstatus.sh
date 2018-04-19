@@ -17,3 +17,6 @@ echo
 echo Analyzing curl response to try to find the POST name provided...
 echo
 echo "$RESULT" | grep "$2" && echo "POST name: $2 was found in the curl response. Test PASSED" || echo "POST name: $2 was NOT found in the curl response. Test FAILED"
+echo
+echo Exiting script
+echo
