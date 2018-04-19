@@ -8,11 +8,11 @@ General Information:
 The solution provided for this assignment comprises a series of technologies and protocols to facilitate the automation of certain tasks. Each part of the solution to this assignment was designed thinking about making this as fast and efficient as possible.
 
 Technology Stack:
-Version Control: Git/Github was used to manage all the code produced for this assignment
-Automation: The automation portion of this assignment was developed solely using shell scripts, and will require a machine that can run .sh files
-Deployment: All the code was pushed to my personal server that has a LAMP configuration although only LAP was used for this exercise (no database component was involved)
-Development Language: Shell scripts (bash), and PHP
-Protocols: Curl and FTPS over TLS1.2 was used for this exercises to keep all the data encrypted end-to-end.
+* Version Control: Git/Github was used to manage all the code produced for this assignment
+* Automation: The automation portion of this assignment was developed solely using shell scripts, and will require a machine that can run .sh files
+* Deployment: All the code was pushed to my personal server that has a LAMP configuration although only LAP was used for this exercise (no database component was involved)
+* Development Language: Shell scripts (bash), and PHP
+* Protocols: Curl and FTPS over TLS1.2 was used for this exercises to keep all the data encrypted end-to-end.
 
 
 
