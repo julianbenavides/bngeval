@@ -1,8 +1,4 @@
-Dear DevOps leader.
 
-Thanks for giving me the opportunity to participate in this hiring process; to be honest I had a lot of fun thinking about a way to finish this assignment in the best way possible. Hopefully the solution I designed will be the winner among the potential candidates.
-
-------
 
 General Information:
 The solution provided for this assignment comprises a series of technologies and protocols to facilitate the automation of certain tasks. Each part of the solution to this assignment was designed thinking about making this as fast and efficient as possible.
